@@ -18,7 +18,7 @@ class User {
   getEmail() {
     return this._email;
   }
-  getHasdedPassword() {
+  getHashedPassword() {
     return this._password;
   }
   setUsername(newUsername) {
